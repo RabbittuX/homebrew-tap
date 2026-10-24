@@ -1,8 +1,8 @@
 class Purrge < Formula
-  desc "AI-powered disk space manager for macOS, using Claude Code or Codex"
+  desc "AI-powered disk space manager using Claude Code, Codex, WorkBuddy or DeepSeek"
   homepage "https://github.com/RabbittuX/purrge"
-  url "https://github.com/RabbittuX/purrge/archive/refs/tags/v0.2.2.tar.gz"
-  sha256 "f71e587f489480a2fa819035d0deebaeeaef807196cdd83d1524984f5261a0cf"
+  url "https://github.com/RabbittuX/purrge/archive/refs/tags/v0.3.0.tar.gz"
+  sha256 "a879c104d2993016f7e64416327ab2a046a847bf3c9c65096e54e1a160e4b8d7"
   license "PolyForm-Noncommercial-1.0.0"
 
   depends_on :macos
@@ -14,8 +14,11 @@ class Purrge < Formula
 
   def caveats
     <<~EOS
-      运行以下命令完成设置（选择 AI 引擎、设置提醒阈值并启用后台监控）：
+      首次安装：运行以下命令完成设置（选择 AI 引擎、设置提醒阈值并启用后台监控）：
         purrge install
+
+      从旧版本升级：运行以下命令，把后台程序同步到新版本（设置和 AI 引擎都保留）：
+        purrge update
     EOS
   end
 
