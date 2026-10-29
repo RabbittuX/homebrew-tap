@@ -1,8 +1,8 @@
 class Purrge < Formula
   desc "AI-powered disk space manager using Claude Code, Codex, WorkBuddy or DeepSeek"
   homepage "https://github.com/RabbittuX/purrge"
-  url "https://github.com/RabbittuX/purrge/archive/refs/tags/v0.3.1.tar.gz"
-  sha256 "2116165566ccb365d8e95f673912b3d49ce46b3ed38cf214fa280a6a0224c501"
+  url "https://github.com/RabbittuX/purrge/archive/refs/tags/v0.3.2.tar.gz"
+  sha256 "97a14244900c7b900fcd39bf50b6cde161390c872660574813a3f3d0580dc4f0"
   license "PolyForm-Noncommercial-1.0.0"
 
   depends_on :macos
